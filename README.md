@@ -6,7 +6,7 @@ A classic hangman game built using HTML, CSS, and JavaScript, where players try 
 
 **Hangman's Noose** is a web-based game that challenges players to guess a word by suggesting letters within a limited number of attempts. Each incorrect guess results in the drawing of the hangman. The game offers a variety of categories, each with a unique set of words.
 
-[Play Now](#)  <!-- Replace with your actual link -->
+[Play Now](https://leticiaveigacs.github.io/Hangman-s_noose/forca-index.html)  <!-- Replace with your actual link -->
 
 ## Features
 
