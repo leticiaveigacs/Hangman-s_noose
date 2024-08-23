@@ -17,6 +17,7 @@ A classic hangman game built using HTML, CSS, and JavaScript, where players try 
 - **Responsive Design**: The interface is designed to work seamlessly across different devices.
 
 ## How to Play 🎮
+[Video](https://github.com/leticiaveigacs/Hangman-s_noose/issues/1#issue-2482908229)  <!-- Replace with your actual link -->
 
 1. **Start the Game**:
    - The game automatically begins with a randomly selected word from one of the predefined categories.
