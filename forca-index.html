@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Hangman's noose">
+        <meta name="author" content="Leticia Silva">
+
+        <title>Hangman's noose</title>
+        <link rel="stylesheet" href="forca-style.css">
+       
+        <script src="app2.js" defer></script>
+
+</head>
+<body>
+
+        <header>
+                <h1>Hangman's noose</h1>
+        </header>
+
+        <main>
+
+                <!--TOP -->    
+                <section>
+                        <h2>Category</h2>
+
+                        <div id="categoria"></div><br>
+                        <!--  <h2>Letras Escolhida</h2> -->
+                        <!--    </div> -->
+                        <button id="botao-reiniciar" onclick="iniciarJogo()">Start Again</button>
+                </section>
+
+             <!--MIDDLE -->
+    
+                 <section>
+                        <img id="imagem" src="img/forca0.png">
+                        <div id="exibicao-palavra"></div>
+                        <input type="text" id="entrada-letra" placeholder="Enter a new letter" maxlength="1">
+                        <button id="btn-chutar" onclick="chutarLetra()">Insert</button>
+                 </section>
+
+                <!-- DOWN-->
+
+                <section>
+                <h2>Chosen Letters</h2>
+
+                        <div id="letras-chutadas"></div>
+                        <div id="mensagem">You win!</div><br>
+                        <!--  <div style="text-align: center;"> -->
+                </section>               
+
+        </main>
+
+        <footer class="footer1">
+                <p>Letícia Silva &copy; | 2024</p>
+        </footer>
+    
+</body>
+</html>
+
